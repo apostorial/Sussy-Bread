@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "sussy-bread",
+	"version": "${version}",
+	"name": "Sussy Bread",
+	"description": "Mod that introduces multiple types of breads that give various abilities and/or effects.",
+	"authors": [
+		"Apostorial"
+	],
+	"contact": {
+		"homepage": "https://github.com/apostorial",
+		"sources": "https://github.com/apostorial/Sussy-Bread.git"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sussy-bread/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.apostorial.SussyBread"
+		],
+		"fabric-datagen": [
+			"com.apostorial.SussyBreadDataGenerator"
+		]
+	},
+	"mixins": [
+		"sussy-bread.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.3",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
