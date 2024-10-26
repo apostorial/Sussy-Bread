@@ -11,6 +11,7 @@ public class SussyBread implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.initialize();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
